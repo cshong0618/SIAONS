@@ -23,8 +23,6 @@ def nsort(arr):
     # Populate temporary array
     for i in arr:
         temparr[i + offset] += 1
-    print(temparr, len(temparr))
-
     # Create return array
     retarr = [0] * len(arr)
 
